@@ -1,41 +1,41 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/jpg" href="assets/images/favicon.jpg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOTHRAKI</title>
-    <link href="styles.css" rel="stylesheet">
     
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>valar morghulis valar dohaeris</title>
 </head>
 
 <body>
-    <nav>
-        <div>
-            <div style="font-size: 2rem; padding: 1rem;">
-            DOTHRAKI
-        </div>
+    
+    <header>
+        <h1>valar&ensp;"morghulis"&ensp;&ensp;valar&ensp;"dohaeris"</h1>
+    </header>
 
-    </nav>
     <main>
-        <textarea id="translate-input"
-            placeholder="Put your message here which you want to convert to dothraki language"></textarea>
-        <button id="translate-button"> Translate To Dothraki</button>
-        <div>Translation will come here 👇</div>
+        <form id="form">
+            <textarea id="txt-input" placeholder="Type here..." required></textarea>
 
-        <div id="translate-output" style="padding: 1rem; font-size: large;"></div>
-
-
+            <button type="submit">Translate</button>    
+        </form>
+        
+        <textarea id="output" placeholder="Output will be shown here..." readonly></textarea>
     </main>
 
-
     <footer>
-        <div style="font-size: x-large;">about</div>
-        <p>Are you a game of thrones? Did you know that the dothraki they say is an actual language. Use the translator
-            to convert your text from English to dothraki language.</p>
+        ABOUT:
+        <br>
+        Are you a fan of Game of Thrones ? Did you know that the Valerian they say is an actual language. Use the translator to convert your text from English to Valerian.
+        <br><br>
     </footer>
 
-    <script src="/js/main.js" type="text/javascript"> </script>
-</body>
+    <script src="assets/js/app.js"></script>
 
+</body>
 </html>
